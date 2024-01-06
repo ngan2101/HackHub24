@@ -55,7 +55,7 @@ const MacBookPro141 = () => {
           </Form.Label>
           <Form.Control as="textarea" defaultValue="" />
         </Form.Group>
-        <div className="div">01/08/24</div>
+        <div className="div1">Due: 01/08/24</div>
         <div className="finalize-feature-2">{`Finalize Feature 2 Design & Hand-off`}</div>
         <div className="task-1-item" />
         <div className="task-1-inner" />
@@ -74,7 +74,7 @@ const MacBookPro141 = () => {
           </Form.Label>
           <Form.Control as="textarea" defaultValue="" />
         </Form.Group>
-        <div className="div1">01/09/24</div>
+        <div className="div1">Due: 01/09/24</div>
         <div className="schedule-11-with">Schedule 1:1 with Intern Nina</div>
         <div className="task-2-item" />
         <div className="task-2-inner" />
@@ -93,7 +93,7 @@ const MacBookPro141 = () => {
           </Form.Label>
           <Form.Control as="textarea" defaultValue="" />
         </Form.Group>
-        <div className="div1">01/09/24</div>
+        <div className="div1">Due: 01/09/24</div>
         <div className="schedule-11-with">
           Schedule coffee chat with Alex P.
         </div>
