@@ -1,0 +1,817 @@
+.macbook-pro-14-1-child {
+  position: absolute;
+  top: 17px;
+  left: 251px;
+  border-radius: var(--br-21xl);
+  background-color: var(--white);
+  width: 1246px;
+  height: 947px;
+}
+.macbook-pro-14-1-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  width: 235px;
+  height: 982px;
+  display: none;
+}
+.henry-nguyen {
+  position: absolute;
+  top: 266px;
+  left: 53px;
+  font-size: var(--sub-heading-size);
+  font-family: var(--heading-2);
+  color: var(--white);
+  text-align: center;
+}
+.material-symbolsdashboard-rou-icon {
+  position: absolute;
+  top: 0;
+  left: 41px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.dashboard,
+.task-lists {
+  position: absolute;
+  left: 89px;
+}
+.dashboard {
+  top: 4px;
+  color: var(--white);
+}
+.task-lists {
+  top: 69px;
+}
+.felist-task-icon {
+  position: absolute;
+  top: 64px;
+  left: 39px;
+  width: 35px;
+  height: 35px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.inbox,
+.settings {
+  position: absolute;
+  top: 135px;
+  left: 89px;
+}
+.settings {
+  top: 199px;
+}
+.icround-email-icon {
+  position: absolute;
+  top: 131px;
+  left: 41px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.nav-bar-child {
+  position: absolute;
+  top: 9px;
+  left: 0;
+  width: 0;
+  height: 15px;
+  object-fit: contain;
+}
+.solarsettings-bold-icon {
+  position: absolute;
+  top: 195px;
+  left: 41px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.nav-bar {
+  position: absolute;
+  top: 350px;
+  left: -1px;
+  width: 193px;
+  height: 227px;
+  font-size: var(--sub-heading-size);
+  font-family: var(--heading-2);
+}
+.icround-search-icon,
+.ionnotifcations-icon {
+  position: absolute;
+  top: 71px;
+  left: 1310px;
+  width: 45px;
+  height: 45px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.icround-search-icon {
+  top: 70px;
+  left: 1379px;
+}
+.hello-henry {
+  position: absolute;
+  top: 63px;
+  left: 322px;
+  font-size: var(--heading-1-size);
+  font-weight: 500;
+  font-family: var(--heading-2);
+}
+.ionchatbubble-outline-icon {
+  position: absolute;
+  top: 893px;
+  left: 24px;
+  width: 65px;
+  height: 65px;
+  overflow: hidden;
+  object-fit: contain;
+}
+.iconlybold2-user {
+  position: absolute;
+  top: 909px;
+  left: 40px;
+  width: 33px;
+  height: 33px;
+  object-fit: cover;
+}
+.hi-im-fi {
+  margin: 0;
+}
+.hi-im-fi-container {
+  position: absolute;
+  top: 897px;
+  left: 99px;
+  font-size: var(--eyebrow-text-size);
+  color: var(--white);
+}
+.friday,
+.to-do {
+  position: absolute;
+  font-weight: 500;
+  font-family: var(--heading-2);
+}
+.friday {
+  top: 22px;
+  left: 53px;
+  font-size: var(--heading-1-size);
+  color: var(--white);
+}
+.to-do {
+  top: 148px;
+  left: 323px;
+  font-size: var(--heading-2-size);
+}
+.task-1-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-mid);
+  background-color: var(--light-gray);
+  width: 600px;
+  height: 217px;
+}
+.div,
+.finalize-feature-2,
+.task-summary-lorem-container {
+  width: 553px;
+  position: absolute;
+  top: 109.41px;
+  left: 23px;
+}
+.div,
+.finalize-feature-2 {
+  top: 82.88px;
+  display: inline-block;
+  width: 59px;
+  height: 18.66px;
+}
+.finalize-feature-2 {
+  top: 46.49px;
+  font-size: var(--heading-3-size);
+  font-weight: 500;
+  font-family: var(--heading-2);
+  width: 423px;
+  height: 32.4px;
+}
+.rectangle-div,
+.task-1-inner,
+.task-1-item {
+  position: absolute;
+  top: 19px;
+  border-radius: var(--br-xs);
+  width: 104px;
+}
+.task-1-item {
+  left: 23px;
+  background-color: #2c9b31;
+  height: 23.57px;
+}
+.rectangle-div,
+.task-1-inner {
+  left: 135px;
+  background-color: var(--color-indianred);
+  height: 24px;
+}
+.rectangle-div {
+  top: 16px;
+  left: 546px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-thistle-100);
+  width: 32px;
+  height: 31.42px;
+}
+.high,
+.q1-projects {
+  position: absolute;
+  color: var(--white);
+  text-align: center;
+  width: 76px;
+  height: 18.66px;
+}
+.q1-projects {
+  top: 20.96px;
+  left: 37px;
+  display: inline-block;
+}
+.high {
+  top: 22px;
+  left: 149px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-4-icon {
+  position: absolute;
+  top: 0;
+  left: -11px;
+  width: 52px;
+  height: 35px;
+  object-fit: cover;
+}
+.image-4-wrapper {
+  position: absolute;
+  top: 168.32px;
+  left: 23px;
+  border-radius: var(--br-31xl);
+  background-color: var(--gray);
+  width: 30px;
+  height: 29.46px;
+  overflow: hidden;
+}
+.task-1 {
+  position: absolute;
+  top: 201px;
+  left: 322px;
+  width: 600px;
+  height: 217px;
+  font-size: var(--eyebrow-text-size);
+}
+.task-summary-lorem-container1 {
+  width: 553px;
+  position: absolute;
+  top: 112px;
+  left: 23px;
+}
+.div1,
+.schedule-11-with {
+  position: absolute;
+  top: 85px;
+  left: 23px;
+}
+.schedule-11-with {
+  top: 48px;
+  font-size: var(--heading-3-size);
+  font-weight: 500;
+  font-family: var(--heading-2);
+}
+.task-2-item {
+  position: absolute;
+  top: 20px;
+  left: 23px;
+  border-radius: var(--br-xs);
+  background-color: #4a5aae;
+  width: 104px;
+  height: 24px;
+}
+.task-2-inner {
+  position: absolute;
+  top: 16px;
+  left: 546px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-thistle-100);
+  width: 32px;
+  height: 32px;
+}
+.team {
+  position: absolute;
+  top: 22px;
+  left: 57px;
+  color: var(--white);
+  text-align: center;
+}
+.image-3-icon {
+  position: absolute;
+  top: 0;
+  left: -14px;
+  width: 63px;
+  height: 42px;
+  object-fit: cover;
+}
+.image-3-wrapper {
+  position: absolute;
+  top: 172px;
+  left: 23px;
+  border-radius: var(--br-31xl);
+  background-color: var(--gray);
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.task-2-child1 {
+  position: absolute;
+  top: 20px;
+  left: 135px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-indianred);
+  width: 104px;
+  height: 24px;
+}
+.task-2 {
+  position: absolute;
+  top: 435px;
+  left: 322px;
+  width: 600px;
+  height: 217px;
+  font-size: var(--eyebrow-text-size);
+}
+.task-3-item,
+.task-summary-lorem-container2 {
+  width: 553px;
+  position: absolute;
+  top: 111px;
+  left: 23px;
+}
+.task-3-item {
+  top: 20px;
+  border-radius: var(--br-xs);
+  background-color: #489fef;
+  width: 104px;
+  height: 24px;
+}
+.networking {
+  position: absolute;
+  top: 22px;
+  left: 36px;
+  color: var(--white);
+  text-align: center;
+}
+.image-5-icon {
+  position: absolute;
+  top: -12px;
+  left: -3px;
+  width: 36px;
+  height: 54px;
+  object-fit: cover;
+}
+.image-5-wrapper {
+  position: absolute;
+  top: 171px;
+  left: 23px;
+  border-radius: var(--br-31xl);
+  background-color: var(--gray);
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.task-3-child1 {
+  top: 20px;
+  left: 135px;
+  border-radius: var(--br-xs);
+  background-color: #66b280;
+  width: 104px;
+  height: 24px;
+}
+.low,
+.task-3,
+.task-3-child1 {
+  position: absolute;
+}
+.low {
+  top: 23px;
+  left: 149px;
+  color: var(--white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 76px;
+  height: 18.66px;
+}
+.task-3 {
+  top: 668px;
+  left: 322px;
+  width: 600px;
+  height: 217px;
+  font-size: var(--eyebrow-text-size);
+}
+.uiwreload-icon {
+  position: absolute;
+  top: 168px;
+  left: 528px;
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.b,
+.update-task {
+  position: absolute;
+  top: 166px;
+  left: 551px;
+}
+.b {
+  top: 163px;
+  left: 443px;
+  font-size: var(--sub-heading-size);
+  font-family: var(--heading-2);
+  color: var(--dark-gray);
+}
+.macbook-pro-14-1-inner {
+  position: absolute;
+  top: 17px;
+  left: 962px;
+  border-radius: 0 var(--br-21xl) var(--br-21xl) 0;
+  background-color: #d9d9d9;
+  width: 535px;
+  height: 947px;
+  display: none;
+}
+.mon {
+  position: relative;
+}
+.day-of-the-week,
+.mon-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.mon-wrapper {
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.day-of-the-week {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.wrapper,
+.wrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 40px;
+  height: 40px;
+}
+.wrapper1 {
+  border-radius: var(--br-31xl);
+  background-color: var(--secondary-color);
+}
+.week-5-child,
+.wrapper1 {
+  width: 40px;
+  height: 40px;
+}
+.day-of-the-week-parent {
+  position: absolute;
+  top: 200px;
+  left: 993px;
+  border-radius: 20px;
+  width: 416px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 48px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.january-05-2024 {
+  position: absolute;
+  top: 147px;
+  left: 989px;
+  font-size: var(--heading-2-size);
+  font-weight: 500;
+  font-family: var(--heading-2);
+}
+.macbook-pro-14-1-child1 {
+  position: absolute;
+  top: 472px;
+  left: 970px;
+  border-radius: 25px;
+  background-color: var(--light-gray);
+  width: 455px;
+  height: 413px;
+}
+.inbox-overview {
+  position: absolute;
+  top: 491px;
+  left: 990px;
+  font-size: var(--heading-2-size);
+  font-weight: 500;
+  font-family: var(--heading-2);
+}
+.image-1-icon {
+  position: absolute;
+  top: calc(50% - 62px);
+  left: calc(50% - 92px);
+  width: 184px;
+  height: 123px;
+  object-fit: cover;
+}
+.image-1-wrapper {
+  position: absolute;
+  top: 130px;
+  left: 58px;
+  border-radius: 100px;
+  background-color: var(--white);
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+}
+.macbook-pro-14-1-child2 {
+  position: absolute;
+  top: 552px;
+  left: 1276px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightsteelblue-100);
+  width: 127px;
+  height: 51px;
+}
+.div31,
+.on-going-threads {
+  position: absolute;
+  top: 559px;
+  left: 1290px;
+  font-size: var(--eyebrow-text-size);
+  color: var(--color-dimgray);
+}
+.div31 {
+  top: 555px;
+  left: 1369px;
+  font-size: var(--heading-2-size);
+  font-weight: 500;
+  font-family: var(--heading-2);
+}
+.macbook-pro-14-1-child3 {
+  position: absolute;
+  top: 552px;
+  left: 990px;
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-color);
+  width: 127px;
+  height: 51px;
+}
+.div32,
+.unread-emails {
+  position: absolute;
+  top: 559px;
+  left: 1003px;
+  font-size: var(--eyebrow-text-size);
+  color: var(--white);
+}
+.div32 {
+  top: 555px;
+  left: 1084px;
+  font-size: var(--heading-2-size);
+  font-weight: 500;
+  font-family: var(--heading-2);
+}
+.macbook-pro-14-1-child4 {
+  position: absolute;
+  top: 552px;
+  left: 1133px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightsteelblue-100);
+  width: 127px;
+  height: 51px;
+}
+.div33,
+.not-yet-replied-container {
+  position: absolute;
+  top: 559px;
+  left: 1144px;
+  font-size: var(--eyebrow-text-size);
+  color: var(--color-dimgray);
+}
+.div33 {
+  top: 555px;
+  left: 1216px;
+  font-size: var(--heading-2-size);
+  font-weight: 500;
+  font-family: var(--heading-2);
+}
+.view-all-tasks-wrapper,
+.view-full-inbox-wrapper {
+  position: absolute;
+  top: 901px;
+  left: 773px;
+  border-radius: var(--br-16xl);
+  background-color: var(--primary-light-blue);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-xl);
+  color: var(--primary-color);
+}
+.view-full-inbox-wrapper {
+  left: 1267px;
+}
+.macbook-pro-14-1-child5,
+.macbook-pro-14-1-child6 {
+  position: absolute;
+  top: 627px;
+  left: 990px;
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  width: 413px;
+  height: 72px;
+}
+.macbook-pro-14-1-child6 {
+  top: 707px;
+}
+.vector-icon {
+  position: absolute;
+  height: 1.63%;
+  width: 1.31%;
+  top: 73.42%;
+  right: 28.25%;
+  bottom: 24.95%;
+  left: 70.44%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.macbook-pro-14-1-child7 {
+  position: absolute;
+  top: 787px;
+  left: 990px;
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  width: 413px;
+  height: 72px;
+}
+.image-8-icon {
+  position: absolute;
+  top: 0;
+  left: -22px;
+  width: 74px;
+  height: 49px;
+  object-fit: cover;
+}
+.image-8-wrapper {
+  position: absolute;
+  top: 801px;
+  left: 1009px;
+  border-radius: var(--br-31xl);
+  background-color: var(--dark-gray);
+  width: 43px;
+  height: 43px;
+  overflow: hidden;
+}
+.quang-pham,
+.vector-icon1 {
+  position: absolute;
+  top: 797px;
+  left: 1094px;
+}
+.vector-icon1 {
+  height: 1.63%;
+  width: 1.31%;
+  top: 81.67%;
+  right: 28.25%;
+  bottom: 16.7%;
+  left: 70.44%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.image-6-icon,
+.re-ux-design {
+  position: absolute;
+  top: 827px;
+  left: 1065px;
+}
+.image-6-icon {
+  top: -19px;
+  left: -10px;
+  width: 60px;
+  height: 90px;
+  object-fit: cover;
+}
+.image-6-wrapper {
+  position: absolute;
+  top: 641px;
+  left: 1009px;
+  border-radius: var(--br-31xl);
+  background-color: var(--dark-gray);
+  width: 43px;
+  height: 43px;
+  overflow: hidden;
+}
+.lucas-smith,
+.re-feature-1 {
+  position: absolute;
+  top: 637px;
+  left: 1093px;
+}
+.re-feature-1 {
+  top: 667px;
+  left: 1065px;
+  white-space: pre-wrap;
+}
+.image-7-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 43px;
+  height: 55px;
+  object-fit: cover;
+}
+.image-7-wrapper {
+  position: absolute;
+  top: 721px;
+  left: 1009px;
+  border-radius: var(--br-31xl);
+  background-color: var(--dark-gray);
+  width: 43px;
+  height: 43px;
+  overflow: hidden;
+}
+.linh-duong {
+  position: absolute;
+  top: 717px;
+  left: 1094px;
+}
+.re-time-off-request {
+  position: absolute;
+  top: 747px;
+  left: 1065px;
+  white-space: pre-wrap;
+}
+.vector-icon2 {
+  position: absolute;
+  height: 1.63%;
+  width: 1.31%;
+  top: 65.17%;
+  right: 28.25%;
+  bottom: 33.2%;
+  left: 70.44%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.ellipse-div,
+.macbook-pro-14-1-child8,
+.macbook-pro-14-1-child9 {
+  position: absolute;
+  top: 320px;
+  left: 1012px;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  width: 6px;
+  height: 6px;
+}
+.macbook-pro-14-1-child8,
+.macbook-pro-14-1-child9 {
+  left: 1074px;
+}
+.macbook-pro-14-1-child9 {
+  left: 1260px;
+}
+.macbook-pro-14-1 {
+  position: relative;
+  background-color: var(--primary-color);
+  width: 100%;
+  height: 982px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--body-text-size);
+  color: var(--black);
+  font-family: var(--body-text);
+}
