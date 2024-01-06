@@ -1,8 +1,52 @@
+import React, { useState } from 'react';
+import axios from 'axios';
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Form } from "react-bootstrap";
+import { Form, Button, Modal } from "react-bootstrap";
 import "./MacBookPro141.css";
 
 const MacBookPro141 = () => {
+  const [userInput, setUserInput] = useState('');
+  const [chatResponse, setChatResponse] = useState('');
+  const [showChat, setShowChat] = useState(false);
+
+  const apiKey = 'VF.DM.65988264e77ab20007510f6f.u9SyOSnUtW3GfAUg'; // Replace with your Voiceflow API key
+  const userID = 'user_123'; // Unique ID for the user
+
+  const sendToVoiceflow = async () => {
+  const body = {
+    action: {
+      type: 'text',
+      payload: userInput,
+    },
+  };
+
+  try {
+    console.log('Sending request to Voiceflow');
+    const response = await axios({
+      method: 'POST',
+      baseURL: 'https://general-runtime.voiceflow.com',
+      url: `/state/user/${userID}/interact`,
+      headers: {
+        Authorization: apiKey,
+      },
+      data: body,
+    });
+
+    console.log('Received response from Voiceflow:', response.data);
+
+    // Extract type and payload from the response
+    const { type, payload } = response.data;
+
+    // Update state with the extracted payload
+    setChatResponse(payload);
+
+    // Clear the input field
+    setUserInput('');
+  } catch (error) {
+    console.error('Error sending request:', error);
+  }
+};
+  
   return (
     <div className="macbook-pro-14-1">
       <div className="macbook-pro-14-1-child" />
@@ -39,7 +83,42 @@ const MacBookPro141 = () => {
         alt=""
         src="/ionchatbubbleoutline@2x.png"
       />
-      <img className="iconlybold2-user" alt="" src="/iconlybold2user@2x.png" />
+      
+      <button onClick={() => setShowChat(!showChat)}>
+        <img className="iconlybold2-user" alt="" src="/iconlybold2user@2x.png" />
+      </button>
+
+      {/* Chat Interface */}
+      {showChat && (
+        <Modal show={showChat} onHide={() => setShowChat(false)}>
+          <Modal.Header closeButton>
+            <Modal.Title>Chat with Fi, your AI assistant</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <Form.Group className="mb-3" controlId="userInput">
+              <Form.Control 
+                as="textarea" 
+                rows={3} 
+                value={userInput} 
+                onChange={(e) => setUserInput(e.target.value)} 
+                placeholder="Type your message here..."
+              />
+            </Form.Group>
+            <Button variant="primary" onClick={sendToVoiceflow}>
+              Send
+            </Button>
+
+            {/* Display the chatbot's response */}
+            {chatResponse && (
+              <div>
+                <h3>Fi's Response:</h3>
+                <p>{chatResponse}</p>
+              </div>
+            )}
+          </Modal.Body>
+        </Modal>
+      )}
+
       <b className="hi-im-fi-container">
         <p className="hi-im-fi">{`Hi I’m Fi, `}</p>
         <p className="hi-im-fi">your AI assistant.</p>
